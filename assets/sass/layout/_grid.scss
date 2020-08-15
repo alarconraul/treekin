@@ -1,0 +1,29 @@
+.card{
+    margin-top: 5%;
+    border: 0px solid;
+        .main__title{
+            font-size: 3.5rem;
+            font-weight: 600;
+            } .main__paragraph{
+                    font-size: 20px;
+                }
+}
+
+
+@media only screen 
+    and (min-device-width: 320px) 
+    and (max-device-width: 568px){
+.card-body img{
+    padding-left: 17px;
+}
+
+ .prices img{
+    position: absolute;
+    max-width: 100%;
+    object-fit: cover;
+    height: 20em;
+ }
+
+
+
+}
